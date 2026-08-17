@@ -1,0 +1,11 @@
+# Secrets — ne jamais pousser sur Git
+.env
+*.pem
+*.key
+
+# Données générées
+core/monitoring/data/
+core/open5gs/logs/
+
+# Fichiers système
+.DS_Store
